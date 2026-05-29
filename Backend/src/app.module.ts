@@ -38,6 +38,7 @@ import { AppCacheModule } from './cache/cache.module';
 import { NotificationModule } from './notifications/notification.module';
 import { TradeEngineModule } from './trade-engine/trade-engine.module';
 import { MarketMonitoringModule } from './market-monitoring/market-monitoring.module';
+import { VerificationModule } from './verification/verification.module';
 
 @Module({
   imports: [
@@ -97,6 +98,7 @@ import { MarketMonitoringModule } from './market-monitoring/market-monitoring.mo
     NotificationModule,
     TradeEngineModule,
     MarketMonitoringModule,
+    VerificationModule,
   ],
   controllers: [AppController],
   providers: [AppService],
